@@ -42,8 +42,10 @@ CryptoKitties employs an impressive deployment hierarchy with few vulnerabilitie
 
 ## One page report
 
-Curious to read more? Check out the full report here: [BlockTEST_One_Page_Report.pdf](https://github.com/blocktest-official/cryptokitties-test/blob/master/BlockTEST_One_Page_Report.pdf)
+Curious to read more? Check out the full report here:
+
+[BlockTEST_One_Page_Report.pdf](https://github.com/blocktest-official/cryptokitties-test/blob/master/BlockTEST_One_Page_Report.pdf)
 
 ## Questions?
 
-Feel free to contact contact@blocktest.net
+Feel free to reach us at contact@blocktest.net
