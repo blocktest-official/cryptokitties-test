@@ -20,6 +20,20 @@ Used the basic functions to support the following features:
 
 [TestKittyCore.sol](https://github.com/blocktest-official/cryptokitties-test/blob/master/contracts/TestKittyCore.sol)
 
+## Contract Inheritance
+
+This is the contract hierarchy used:
+``` solidity
+contract KittyAccessControl
+contract KittyBase is KittyAccessControl
+contract KittyOwnership is KittyBase, ERC721
+contract KittyBreeding is KittyOwnership
+contract KittyAuction is KittyBreeding
+contract KittyMinting is KittyAuction
+contract KittyCore is KittyMinting
+contract TestKittyCore is KittyCore
+```
+
 ## Methodology
 
 BlockTEST’s patented testbed is an intelligent platform that evaluates blockchain projects based on objective performance measures.
